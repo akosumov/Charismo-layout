@@ -1,0 +1,137 @@
+$grey: #728399;
+$blue: #2389FF;
+$dark_blue: #304560;
+
+main{
+    .basket_products{
+        padding: 56px 375px 60px 375px;
+        &_item{
+            border-top: 1px solid #E7E7E7;
+            border-bottom: 1px solid #E7E7E7;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            margin-bottom: 35px;
+            .name_product{
+                display: flex;
+                &_text{
+                    >h2{
+                        font-size: 20px;
+                        line-height: 26px;
+                        color: $dark_blue;
+                        margin: 10px 0 30px;
+                    }
+                    >p{
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: $grey;
+                    }
+                }
+            }
+            .button_counter{
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                margin-left: 20px;
+                gap: 15px;
+                max-width: 97px;
+                height: 55px;
+                border: 1px solid #E7E7E7;
+                border-radius: 10px;
+                .button_plus{
+                    cursor: pointer;
+                    background-color: white;
+                    border: none;
+                    color: $grey;
+                    margin-right: 14px;
+                }
+                .counter{
+                    color: $grey;
+                }
+                .button_minus{
+                    cursor: pointer;
+                    background-color: white;
+                    border: none;
+                    color: $grey;
+                    margin-left: 14px;
+                }
+            }
+            .price{
+                font-weight: 600;
+                font-size: 20px;
+                color: $dark_blue;
+                margin-left: 30px;
+            }
+            .delete_products_item{
+                margin-left: 30px;
+            }
+        }
+    }
+    .total_price{
+        padding: 0 375px;
+        margin-bottom: 80px;
+        .price_sum{
+            display: flex;
+            justify-content: end;
+            gap: 15px;
+            margin-bottom: 30px;
+            .sum_text{
+                // font-weight: 600;
+                font-size: 20px;
+            }
+            .sum{
+                font-weight: 600;
+                font-size: 20px;
+                color: $blue;
+            }
+        }
+        .total_price_buttons{
+            display: flex;
+            justify-content: end;
+            gap: 80px;
+            .back_magazine{
+                a{
+                    button{
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 200px;
+                        height: 51px;
+                        background: #FFFFFF;
+                        border: 1px solid $blue;
+                        border-radius: 8px;
+                        box-shadow: 6px 4px 4px #DCDCDC;
+                        transition: all linear 0.2s;
+                        &:active{
+                            background-color:rgba(255, 255, 255, 0.226);
+                        }
+                        &:hover{
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+            .buy_products{
+                button{
+                    cursor: pointer;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    height: 51px;
+                    background: $blue;
+                    border-radius: 8px;
+                    color: white;
+                    &:hover{
+                        background: #207fec;
+                    }
+                    &:active{
+                        background: #1c6dca;
+                    }
+                }
+            }
+        }
+    }
+}

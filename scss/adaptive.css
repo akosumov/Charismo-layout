@@ -1,0 +1,357 @@
+@media only screen and (max-width: 1500px) {
+  header .sup_header {
+    padding: 11px 25px 0 40px;
+    white-space: nowrap; }
+  header .sub_header {
+    padding: 0px 30px 0 40px;
+    white-space: nowrap; }
+  header .main_header {
+    padding: 99px 30px 0px 40px;
+    background-image: none;
+    background: url(../img/women_adaptive.png) right center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+
+  main .principle {
+    padding: 98px; }
+  main .effect {
+    padding: 20px;
+    padding-bottom: 93px; }
+  main .reviews {
+    padding: 25px;
+    padding-bottom: 50px; }
+    main .reviews_wrapper {
+      justify-content: center; }
+      main .reviews_wrapper_card:nth-child(3) {
+        display: none; }
+  main .partners {
+    padding: 25px;
+    padding-top: 40px;
+    padding-bottom: 50px; }
+  main .professional {
+    padding: 25px;
+    padding-top: 50px; }
+  main section.product_card {
+    justify-content: center; }
+  main section.question_reviews {
+    padding: 75px 50px 57px 50px; }
+  main section.spoilers {
+    padding-left: 100px;
+    padding-right: 100px; }
+  main .contacts_message {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  footer {
+    padding: 50px; } }
+@media only screen and (max-width: 1200px) {
+  header .sup_header {
+    padding: 10px 10px 0px 10px; }
+    header .sup_header_menu {
+      gap: 20px; }
+    header .sup_header_login {
+      margin-left: 200px; }
+  header .sub_header {
+    padding: 0; }
+    header .sub_header img {
+      margin-right: 40px; }
+    header .sub_header_menu {
+      gap: 10px; }
+  header .main_header {
+    background: url(../img/women_adaptive.png) 400px center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+  header .menu {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 50px; }
+
+  main section.spoilers {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px; }
+  main .contacts_message {
+    padding: 30px; }
+    main .contacts_message > h2 {
+      font-size: 35px; }
+    main .contacts_message > h3 {
+      font-size: 16px; }
+    main .contacts_message .wrapper .contacts_text > h3 {
+      font-size: 16px; }
+      main .contacts_message .wrapper .contacts_text > h3 a {
+        font-size: 16px; }
+    main .contacts_message .wrapper .contacts_text > p {
+      font-size: 16px; }
+
+  footer {
+    padding: 50px 0px 0px 20px; }
+    footer .flex {
+      gap: 50px; }
+      footer .flex .follow_item_img_social {
+        min-width: 30px;
+        min-height: 30px; }
+      footer .flex .pages_item > h3, footer .flex .product_item > h3 {
+        font-size: 18px; }
+      footer .flex .pages_item a, footer .flex .product_item a {
+        font-size: 15px; }
+      footer .flex .spam_item > h3 {
+        font-size: 18px; }
+      footer .flex .spam_item > input {
+        width: 230px; }
+      footer .flex .spam_item > button {
+        width: 255px; }
+    footer .sub_footer {
+      padding: 0;
+      padding-bottom: 20px; } }
+@media only screen and (max-width: 992px) {
+  header .adaptive_block .burger {
+    visibility: visible; }
+  header .sup_header {
+    display: none;
+    height: 70px;
+    padding: 0; }
+    header .sup_header img {
+      margin-right: 0; }
+    header .sup_header_menu {
+      display: none; }
+    header .sup_header_login {
+      display: none; }
+  header .sub_header {
+    box-sizing: border-box;
+    display: block;
+    background: white;
+    padding: 20px 0px 0px 20px;
+    border: none; }
+    header .sub_header_menu {
+      display: none; }
+    header .sub_header_wrapper {
+      display: none; }
+  header .main_header {
+    padding: 0;
+    padding-top: 45px;
+    height: 650px;
+    background: url(../img/women_adaptive.png) center 225px/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+    header .main_header h1 {
+      display: block;
+      font-size: 47px;
+      max-width: 100%;
+      margin-left: 40px; }
+    header .main_header p {
+      margin-left: 40px;
+      margin-bottom: 350px;
+      font-size: 26px;
+      max-width: 100%; }
+    header .main_header button {
+      margin: 0 auto;
+      width: 75%;
+      height: 10%; }
+  header .shop {
+    background-color: #F4F7FE; }
+  header .menu {
+    border: none; }
+
+  main .effect {
+    padding: 20px 93px 93px 93px; }
+  main .professional {
+    height: 289px; }
+    main .professional h2 {
+      line-height: 40px; }
+    main .professional h3 {
+      padding-top: 20px; }
+  main section.product_card {
+    padding-left: 0;
+    padding-right: 0; }
+    main section.product_card .product {
+      background-color: #FAFBFF; }
+      main section.product_card .product .buy_button {
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px; }
+        main section.product_card .product .buy_button .basket, main section.product_card .product .buy_button .fast {
+          display: none; }
+        main section.product_card .product .buy_button .basket_mobile, main section.product_card .product .buy_button .loupe {
+          display: block; }
+  main section.question_reviews {
+    padding: 0px 50px 57px 50px; }
+    main section.question_reviews .question_list_item {
+      max-width: none; }
+  main section.spoilers {
+    margin-top: 10px; }
+  main .contacts_message .wrapper {
+    gap: 10px; }
+    main .contacts_message .wrapper form {
+      width: 350px; }
+      main .contacts_message .wrapper form > input {
+        width: 321px; }
+      main .contacts_message .wrapper form .wrapper button {
+        margin-left: 140px; }
+      main .contacts_message .wrapper form .wrapper p {
+        min-width: 200px; }
+
+  footer .flex {
+    display: block; }
+    footer .flex .follow_item p {
+      font-size: 21px;
+      max-width: none;
+      line-height: 30px; }
+    footer .flex .follow_item h3 {
+      font-size: 20px; }
+    footer .flex .pages, footer .flex .product {
+      display: none; }
+    footer .flex .spam {
+      display: none; }
+  footer .sub_footer .politics {
+    display: none; }
+
+  .wrapper_module {
+    display: none; } }
+@media only screen and (max-width: 768px) {
+  header .main_header {
+    background: url(../img/women_adaptive2.png) center center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+    header .main_header p {
+      margin-bottom: 300px; }
+  header .menu {
+    border: none; }
+
+  main .principle {
+    padding: 80px 20px 80px 20px; }
+    main .principle > h2 {
+      line-height: 30px; }
+    main .principle_wrapper {
+      max-width: none; }
+      main .principle_wrapper_card {
+        max-width: none; }
+        main .principle_wrapper_card > p {
+          max-width: none; }
+  main .effect {
+    padding: 0px 20px 0px 20px; }
+    main .effect > h2 {
+      line-height: 47px; }
+    main .effect_wrapper {
+      justify-content: center; }
+  main .reviews {
+    padding: 0px 20px 0px 20px;
+    min-height: none; }
+    main .reviews_flex_wrapper_button {
+      display: none; }
+    main .reviews_wrapper {
+      width: auto; }
+      main .reviews_wrapper_card {
+        max-width: 335px;
+        max-height: 275px; }
+        main .reviews_wrapper_card:nth-child(2) {
+          display: none; }
+  main .partners {
+    margin-top: 60px;
+    max-height: none;
+    height: auto; }
+    main .partners_logo {
+      justify-content: center;
+      flex-direction: column; }
+  main .professional {
+    background: linear-gradient(92.31deg, #2389FF 0.74%, rgba(35, 137, 255, 0.5) 98.19%); }
+  main section.product_card {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 46px; }
+  main .contacts_message > h2 {
+    text-align: center; }
+  main .contacts_message > h3 {
+    text-align: center; }
+  main .contacts_message .wrapper {
+    flex-direction: column; }
+    main .contacts_message .wrapper form {
+      margin: 0 auto; }
+      main .contacts_message .wrapper form .wrapper button {
+        margin: 0 auto; }
+
+  footer .flex .follow_item p {
+    font-size: 15px; }
+  footer .flex .follow_item h3 {
+    font-size: 16px; } }
+@media only screen and (max-width: 650px) {
+  header .main_header {
+    background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); } }
+@media only screen and (max-width: 480px) {
+  header .adaptive_block .menu_adaptive_block .menu_list_nav_item a {
+    font-size: 16px; }
+  header .adaptive_block .menu_adaptive_block a.login_adapt {
+    font-size: 16px; }
+    header .adaptive_block .menu_adaptive_block a.login_adapt::after {
+      bottom: 2.5em;
+      right: 1em; }
+  header .adaptive_block .menu_adaptive_block a.bascket_adapt {
+    font-size: 16px; }
+    header .adaptive_block .menu_adaptive_block a.bascket_adapt::after {
+      bottom: 2.5em;
+      right: 1em; }
+  header .adaptive_block .menu_adaptive_block a.telephone_adapt {
+    font-size: 16px; }
+  header .sub_header_adaptive_block {
+    display: block; }
+    header .sub_header_adaptive_block .burger img {
+      right: 0px;
+      bottom: 10px; }
+  header .main_header {
+    background: url(../img/women_adaptive2.png) center 200px/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+    header .main_header h1 {
+      font-size: 33px;
+      margin: 0;
+      margin-left: 20px; }
+    header .main_header p {
+      margin: 20px 0 80% 20px; }
+  header .menu h2 {
+    font-size: 15px;
+    padding-left: 0px; }
+
+  main .principle > h2 {
+    line-height: 56px; }
+  main .principle_wrapper_card > p, main .principle_wrapper_card > h3, main .principle_wrapper_card > img {
+    padding-left: 0; }
+  main .effect > h2 {
+    font-size: 37px; }
+  main .effect_wrapper {
+    margin-bottom: 92px; }
+  main .reviews {
+    padding-left: 0;
+    padding-right: 0; }
+    main .reviews_flex_wrapper > h2 {
+      line-height: 50px;
+      padding-left: 20px; }
+    main .reviews p {
+      padding-left: 20px; }
+    main .reviews_wrapper_card {
+      min-width: 0;
+      min-height: 0;
+      padding-bottom: 20px; }
+  main .partners {
+    padding-left: 5px;
+    padding-right: 5px; }
+    main .partners > h2 {
+      text-align: center;
+      line-height: 50px; }
+    main .partners > h3 {
+      text-align: center; }
+  main .professional {
+    padding-left: 5px;
+    padding-right: 5px; }
+    main .professional > h2 {
+      font-size: 27px; }
+    main .professional > h3 {
+      font-size: 16px; }
+    main .professional > a > button {
+      margin-top: 20px; }
+  main section.product_card {
+    padding-left: 20px;
+    padding-right: 20px; }
+    main section.product_card .product {
+      margin-bottom: 10px; }
+      main section.product_card .product > h2 {
+        font-size: 14px; }
+  main section.question_reviews {
+    padding: 0px 20px 57px 20px; }
+    main section.question_reviews .question_list_item {
+      max-width: none; }
+  main .contacts_message .wrapper form > input {
+    width: 258px; }
+
+  section.spoilers details summary {
+    font-size: 16px; }
+  section.spoilers details > p {
+    font-size: 12px; } }

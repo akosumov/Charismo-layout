@@ -1,0 +1,631 @@
+@media only screen and (max-width: 1500px){
+    header{
+        .sup_header{
+            padding: 11px 25px 0 40px;
+            white-space: nowrap;
+        }
+        .sub_header{
+            padding: 0px 30px 0 40px;
+            white-space: nowrap;
+        }
+        .main_header{
+            padding: 99px 30px 0px 40px;
+            background-image: none;
+            background: url(../img/women_adaptive.png) right center/auto auto no-repeat,linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+        }
+    }
+    main{
+        .principle{
+            padding: 98px;
+        }
+        .effect{
+            padding: 20px;
+            padding-bottom: 93px;
+        }
+        .reviews{
+            padding: 25px;
+            padding-bottom: 50px;
+            &_wrapper{
+                justify-content: center;
+                &_card{
+                    &:nth-child(3){
+                        display: none;
+                    }
+                }
+            }
+        }
+        .partners{
+            padding: 25px;
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+        .professional{
+            padding: 25px;
+            padding-top: 50px;
+        }
+        //shop.html
+        section.product_card{
+            justify-content: center;
+        }
+        //reviews.html
+        section.question_reviews{
+            padding: 75px 50px 57px 50px;
+        }
+        //question.html
+        section.spoilers{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        //contacts.html
+        .contacts_message{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    footer{
+        padding: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px){
+    header{
+        .sup_header{
+            padding: 10px 10px 0px 10px;
+            &_menu{
+                gap: 20px;
+            }
+            &_login{
+                margin-left: 200px;
+            }
+        }
+        .sub_header{
+            padding: 0;
+            img{
+                margin-right: 40px;
+            }
+            &_menu{
+                gap: 10px;
+            }
+        }
+        .main_header{
+            background: url(../img/women_adaptive.png) 400px center/auto auto no-repeat,linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+        }
+        .menu{
+            padding-bottom: 25px;
+            padding-top: 25px;
+            padding-left: 50px;
+        }
+    }
+    main{
+        //question.html
+        section.spoilers{
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-top: 10px;
+        }
+        //contacts.html
+        .contacts_message{
+            padding: 30px;
+            >h2{
+                font-size: 35px;
+            }
+            >h3{
+                font-size: 16px;
+            }
+            .wrapper{
+                .contacts_text{
+                    >h3{
+                        font-size: 16px;
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                    >p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        padding: 50px 0px 0px 20px;
+        .flex{
+            gap: 50px;
+            .follow{
+                &_item{
+                    &_img{
+                        &_social{
+                            min-width: 30px;
+                            min-height: 30px;
+                        }
+                    }
+                }
+            }
+            .pages,.product{
+                &_item{
+                    >h3{
+                        font-size: 18px;
+                    }
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .spam{
+                &_item{
+                    >h3{
+                        font-size: 18px;
+                    }
+                    >input{
+                        width: 230px;
+                    }
+                    >button{
+                        width: 255px;
+                    }
+                }
+            }
+        }
+        .sub_footer{
+            padding: 0;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+    header{
+        .adaptive_block{
+            .burger{
+                visibility: visible;
+            }
+        }
+        .sup_header{
+            display: none;
+            height: 70px;
+            padding: 0;
+            img{
+                margin-right: 0;
+            }
+            &_menu{
+                display: none;
+            }
+            &_login{
+                display: none;
+            }
+        }
+        .sub_header{
+            box-sizing: border-box;
+            display: block  ;
+            background: white;
+            padding: 20px 0px 0px 20px;
+            border: none;
+            &_menu{
+                display: none;
+            }
+            &_wrapper{
+                display: none;
+            }
+        }
+        .main_header{
+            padding: 0;
+            padding-top: 45px;
+            height: 650px;
+            background: url(../img/women_adaptive.png) center 225px/auto auto no-repeat,
+            linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+            h1{
+                display: block;
+                font-size: 47px;
+                max-width: 100%;
+                margin-left: 40px;
+            }
+            p{
+                margin-left: 40px;
+                margin-bottom: 350px;
+                font-size: 26px;
+                max-width: 100%;
+            }
+            button{
+                margin: 0 auto;
+                width: 75%;
+                height: 10%;
+            }
+        }
+        //shop.html
+        .shop{
+            background-color: #F4F7FE;
+        }
+        .menu{
+            border: none;
+        }
+    }
+    main{
+        .effect{
+            padding: 20px 93px 93px 93px;
+        }
+        .professional{
+            height: 289px;
+            h2{
+                line-height: 40px;
+            }
+            h3{
+                padding-top: 20px;
+            }
+        }
+        //shop.html
+        section.product_card{
+            padding-left: 0;
+            padding-right: 0;
+            .product{
+                background-color: #FAFBFF;
+                .buy_button{
+                    justify-content: center;
+                    gap: 10px;
+                    margin-bottom: 20px;
+                    .basket,.fast{
+                        display: none;
+                    }
+                    .basket_mobile,.loupe{
+                        display: block;
+                    }
+                }
+            }
+        }
+        //reviews.html
+        section.question_reviews{
+            padding: 0px 50px 57px 50px;
+            .question_list{
+                &_item{
+                    max-width: none;
+                }
+            }
+        }
+        //question.html
+        section.spoilers{
+            margin-top: 10px;
+        }
+        //contacts.html
+        .contacts_message{
+            .wrapper{
+                gap: 10px;
+                form{
+                    width: 350px;
+                    >input{
+                        width: 321px;
+                    }
+                    .wrapper{
+                        button{
+                            margin-left: 140px;
+                        }
+                        p{
+                            min-width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .flex{
+            display: block;
+            .follow{
+                &_item{
+                    p{
+                        font-size: 21px;
+                        max-width: none;
+                        line-height: 30px;
+                    }
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .pages,.product{
+                display: none;
+            }
+            .spam{
+                display: none;
+            }
+        }
+        .sub_footer{
+            .politics{
+                display: none;
+            }
+        }
+    }
+    //Modal_window_contacts
+    .wrapper_module{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        .main_header{
+            background: url(../img/women_adaptive2.png) center center/auto auto no-repeat,
+            linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+            p{
+                margin-bottom: 300px;
+            }
+        }
+        .menu{
+            border: none;
+        }
+    }
+    main{
+        .principle{
+            padding: 80px 20px 80px 20px;
+            >h2{
+                line-height:30px;
+            }
+            &_wrapper{
+                max-width: none;
+                &_card{
+                    max-width: none;
+                    >p{
+                        max-width: none;
+                    }
+                }
+            }
+        }
+        .effect{
+            padding: 0px 20px 0px 20px;
+            >h2{
+                line-height: 47px;
+            }
+            &_wrapper{
+                justify-content: center;
+            }
+        }
+        .reviews{
+            padding: 0px 20px 0px 20px;
+            min-height: none;
+            &_flex_wrapper{
+                &_button{
+                    display: none;
+                }
+            }
+            &_wrapper{
+                width: auto;
+                &_card{
+                    max-width: 335px;
+                    max-height: 275px;
+                    &:nth-child(2){
+                        display: none;
+                    }
+                }
+            }
+        }
+        .partners{
+            margin-top: 60px;
+            max-height: none;
+            height: auto;
+            &_logo{
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+        .professional{
+            background: linear-gradient(92.31deg, #2389FF 0.74%, rgba(35, 137, 255, 0.5) 98.19%);;
+        }
+        //shop.html
+        section.product_card{
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 46px;
+        }
+        //contacts.html
+        .contacts_message{
+            >h2{
+                text-align: center;
+            }
+            >h3{
+                text-align: center;
+            }
+            .wrapper{
+                flex-direction: column;
+                form{
+                    margin: 0 auto;
+                    .wrapper{
+                        button{
+                            margin: 0 auto  ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .flex{
+            .follow{
+                &_item{
+                    p{
+                        font-size: 15px;
+                    }
+                    h3{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 650px){
+    header{
+        .main_header{
+            background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat,
+            linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+    header{
+        .adaptive_block{
+            .menu_adaptive_block{
+                .menu_list_nav{
+                    &_item{
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                }
+                a.login_adapt{
+                    font-size: 16px;
+                    &::after{
+                        bottom: 2.5em;
+                        right: 1em;
+                    }
+                }
+                a.bascket_adapt{
+                    font-size: 16px;
+                    &::after{
+                        bottom: 2.5em;
+                        right: 1em;
+                    }
+                }
+                a.telephone_adapt{
+                    font-size: 16px;
+                }
+            }
+        }
+        .sub_header{
+            &_adaptive_block{
+                display: block;
+                .burger{
+                    img{
+                        right: 0px;
+                        bottom: 10px;
+                    }
+                }
+            }
+        }
+        .main_header{
+            background: url(../img/women_adaptive2.png) center 200px/auto auto no-repeat,
+            linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+            h1{
+                font-size: 33px;
+                margin: 0;
+                margin-left: 20px;
+            }
+            p{
+                margin: 20px 0 80% 20px;
+            }
+        }
+        .menu{
+            h2{
+                font-size: 15px;
+                padding-left: 0px;
+            }
+        }
+    }
+    main{
+        .principle{
+            >h2{
+                line-height: 56px;
+            }
+            &_wrapper{
+                &_card{
+                    >p,>h3,>img{
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+        .effect{
+            >h2{
+                font-size: 37px;    
+            }
+            &_wrapper{
+                margin-bottom: 92px;
+            }
+        }
+        .reviews{
+            padding-left: 0;
+            padding-right: 0;
+            &_flex_wrapper{
+                >h2{
+                    line-height: 50px;
+                    padding-left: 20px;
+                }
+            }
+            p{
+                padding-left: 20px;
+            }
+            &_wrapper{
+                &_card{
+                    min-width: 0;
+                    min-height: 0;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+        .partners{
+            padding-left: 5px;
+            padding-right: 5px;
+            >h2{
+                text-align: center;
+                line-height: 50px;
+            }
+            >h3{
+                text-align: center;
+            }
+        }
+        .professional{
+            padding-left: 5px;
+            padding-right: 5px;
+            >h2{
+                font-size: 27px;
+            }
+            >h3{
+                font-size: 16px;
+            }
+            >a{
+                >button{
+                    margin-top: 20px;
+                }
+            }
+        }
+        //shop.html
+        section.product_card{
+            padding-left: 20px;
+            padding-right: 20px;
+            .product{
+                margin-bottom: 10px;
+                >h2{
+                    font-size: 14px;
+                }
+            }
+        }
+        section.question_reviews{
+            padding: 0px 20px 57px 20px;
+            .question_list{
+                &_item{
+                    max-width: none;
+                }
+            }
+        }
+        //contacts.html
+        .contacts_message{
+            .wrapper{
+                form{
+                    >input{
+                        width: 258px;
+                    }
+                }
+            }
+        }
+    }
+    //question.html
+    section.spoilers{
+        details{
+            summary{
+                font-size: 16px;
+            }
+            >p{
+                font-size: 12px;
+            }
+        }
+    }
+}
