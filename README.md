@@ -1,0 +1,16 @@
+<h1>Project: <a href="https://charismo-layout.vercel.app/index.html">Charismo</a></h1>
+
+---
+
+Project description: The Charismo project is an adaptive layout of a multi-page website. 
+
+--- 
+
+Core Technology:
+- HTML 5
+- SCSS
+- JavaScript
+- adaptive layout
+---
+
+Link to website: <h2><a href="https://charismo-layout.vercel.app/index.html"> Click </a></h2>
